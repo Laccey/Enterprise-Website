@@ -3,6 +3,7 @@
 /*
 General
 ---------------------------------------------*/
+*{font-family: Microsoft YaHei, Arial}
 ul,li,dl,dt,dd{list-style: none;padding:0;margin:0;}
 a,a:hover{text-decoration: none;color:#333;}
 input,button,select,textarea{ outline:none; border:0; -webkit-appearance: none; }
@@ -84,6 +85,7 @@ input,button,select,textarea{ outline:none; border:0; -webkit-appearance: none; 
     overflow: hidden;
     font-size: 12px;
     line-height: 14px;
+    display: block;
 }
 .consult_qq i{
     font-size: 16px;

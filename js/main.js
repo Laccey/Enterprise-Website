@@ -105,8 +105,12 @@ $(function () {
         });
 
         var boxArr = $('.masonry_info'),
-            num = Math.floor(document.body.clientWidth / boxArr.eq(0).outerWidth(true)),
+            ms = $('.masonry').width(),
+            num = Math.floor(ms / boxArr.eq(0).outerWidth(true)),
             columnHeightArr = [];
+        console.log(ms);
+        console.log(boxArr.eq(0).outerWidth(true));
+        console.log(num);
             columnHeightArr.length = num;
 
         arrangement();
